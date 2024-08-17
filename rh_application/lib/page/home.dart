@@ -8,7 +8,6 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  BlocProvider(
       create: (context) => UserBloc(remoteDataSource: RemoteDataSource())..add(LoadUser()), 
       child: Scaffold(
 

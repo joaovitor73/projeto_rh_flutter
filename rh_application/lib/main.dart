@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:rh_application/page/home.dart';
+import 'package:rh_application/page/setores.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Home(),
+      //home: const Home(),
+      home: const Setores(),
     );
   }
 }
